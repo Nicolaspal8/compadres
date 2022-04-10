@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,600&family=PT+Sans&family=Playfair+Display:wght@400;800&display=swap');
+*{
+ font-family: 'Open Sans', sans-serif;
+ 
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: black;
+}
+nav img{
+width: 8%;
+}
+@media all and (min-width: 992px){
+    #hero_carousel img{
+        width: 80vw;
+        height: 85vh;
+    }
+}
+
+.dropdown-menu:hover{
+    display: block;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+#contacto{
+    background: yellow;
+}
+i:hover{
+    color:  linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);;
+}
